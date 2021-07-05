@@ -30,7 +30,7 @@ get "$filename" "$basefile"
 quit
 EOF
 
-if [ $? -eq 0 ]
+if [ $? -eq 0 ] ; then
 	ls -l $basefile
 fi
 
